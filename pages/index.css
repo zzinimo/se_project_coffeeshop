@@ -6,10 +6,12 @@
   font-size: 16px;
   line-height: 20px;
   position: relative;
+  background-color: #ffffff;
 }
 
 .header {
   height: 100vh;
+  background-image: url(../images/background_header.svg);
 }
 
 .nav {
@@ -56,7 +58,7 @@
   line-height: 25px;
 }
 
-.header__footer {
+/* .header__footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -68,4 +70,4 @@
 .header__footer_list {
   list-style-type: none;
   padding-left: 50px;
-}
+} */
