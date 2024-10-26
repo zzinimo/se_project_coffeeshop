@@ -36,14 +36,14 @@
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="Triple Espresso Logo"
-            class="header__logo"
+            class="nav__logo"
           />
 
-          <ul class="header__list">
-            <li class="header__list-item">Recipes</li>
-            <li class="header__list-item">Book a table</li>
-            <li class="header__list-item">Menu</li>
-            <li class="header__list-item">Contacts</li>
+          <ul class="nav__links">
+            <li class="nav__link">Recipes</li>
+            <li class="nav__link">Book a table</li>
+            <li class="nav__link">Menu</li>
+            <li class="nav__link">Contacts</li>
           </ul>
         </nav>
         <img
@@ -52,14 +52,17 @@
           class="header__image"
         />
         <h1 class="header__title">Specialty Coffee</h1>
-        <p class="header__title-description">in the Triple Peaks Library</p>
+        <p class="header__description">in the Triple Peaks Library</p>
         <p class="header__content">
-          Welcome to our study zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
+          Welcome to our study zone! We've got the coffee to energize &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; you and the cozy vibes to help you
+          get creative.
         </p>
-        <!-- <div class="header__footer">
-          <ul class="header__footer header__footer_list">
-            <li class="header__footer header__footer_list-item">Hours</li>
+        <div class="header__footer">
+          <ul class="header__footer_list">
+            <li class="header__footer header__footer_list-item">Hours:</li>
             <li class="header__footer_list-item">
               Monday-Friday (10:00 - 19:00)
             </li>
@@ -67,22 +70,48 @@
               Saturday-Sunday (11:00 - 18:00)
             </li>
           </ul>
-          <p class="header__footer-address">
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__videos_one">
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                class="recipes__iframe"
+                title="The Ultimate AeroPress Technique (Episode #3)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
+            </div>
+            <div class="recipes__videos_two">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="The Ultimate French Press Technique"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">French press recipe ~15 min</p>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
         <section class="menu"></section>
         <section class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
-  </body>
-</html>
-      </header>
-    </div> -->
   </body>
 </html>
