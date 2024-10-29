@@ -40,7 +40,7 @@
           />
 
           <ul class="nav__links">
-            <li class="nav__link">Recipes</li>
+            <li class="nav__link"><a href="#recipes">Recipes</a></li>
             <li class="nav__link">Book a table</li>
             <li class="nav__link">Menu</li>
             <li class="nav__link">Contacts</li>
@@ -61,9 +61,9 @@
           get creative.
         </p>
         <div class="header__footer">
-          <ul class="header__footer_list">
+          <ul class="header__footer header__footer_list">
             <li class="header__footer header__footer_list-item">Hours:</li>
-            <li class="header__footer_list-item">
+            <li class="header__footer header__footer_list-item">
               Monday-Friday (10:00 - 19:00)
             </li>
             <li class="header__footer_list-item">
@@ -76,14 +76,14 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
           <div class="recipes__videos">
-            <div class="recipes__videos_one">
+            <div class="iframe__container_one">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 class="recipes__iframe"
@@ -92,9 +92,11 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
+              <p class="recipes__video-caption">
+                Aeropress recipe <span class="recipes__time">~5 min</span>
+              </p>
             </div>
-            <div class="recipes__videos_two">
+            <div class="iframe__container_two">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8"
@@ -103,7 +105,9 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">French press recipe ~15 min</p>
+              <p class="recipes__video-caption">
+                French press recipe <span class="recipes__time">~15 min</span>
+              </p>
             </div>
           </div>
         </section>
