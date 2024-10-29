@@ -146,6 +146,14 @@
   padding: 80px 0 215px;
 }
 
+.recipes__videos_one {
+  display: block;
+}
+
+.recipes__videos_two {
+  display: block;
+}
+
 .recipes__video-caption {
   font-family: "inter", Arial, sans-serif;
   font-style: normal;
