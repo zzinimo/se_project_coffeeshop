@@ -1,13 +1,30 @@
 .card {
   width: 540px;
+  font-family: "noto serif", "times new roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
 }
 
 .card__list-item {
   display: flex;
   gap: 10px;
+  margin: 0 0 16px;
 }
 
 .card__list-divider {
   flex-grow: 1;
   border-bottom: 1px solid black;
 }
+
+/* ended at 9:34 minutes on youtube. Rewind a little tomorrow to refresh */
