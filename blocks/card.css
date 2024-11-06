@@ -9,11 +9,21 @@
 
 .card__title {
   margin: 0 0 32px;
+  font-family: "inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list {
   padding: 0;
   margin: 0;
+  font-family: "noto serif", "times new roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__list-item {
