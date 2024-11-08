@@ -42,12 +42,10 @@
 
 .header__content {
   font-family: "noto serif", "times new roman", serif;
-  margin: 45px 0 0 50px;
   max-width: 683px;
   line-height: 30px;
   margin: 28px 0 0 80px;
   font-size: 20px;
-  color: #6f6f6f;
 }
 
 .header__footer {
@@ -70,6 +68,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
+  margin: 0;
 }
 
 .header__paragraph {
