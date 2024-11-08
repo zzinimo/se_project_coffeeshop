@@ -44,14 +44,9 @@
   margin: 0;
 }
 
-.recipes__videos_one {
+.recipes__video {
   display: block;
 }
-
-.recipes__videos_two {
-  display: block;
-}
-
 .recipes__video-caption {
   font-family: "inter", Arial, sans-serif;
   font-style: normal;
@@ -60,7 +55,7 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0 0;
 }
 
 .recipes__time {
